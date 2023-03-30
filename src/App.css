@@ -33,23 +33,23 @@
   max-width: 900px;
   border: 1px solid #808080;
   margin: auto;
-  display: flex; /* make card a flex container */
-  align-items: center; /* center flex items vertically */
+  display: flex;
+  align-items: center;
   padding: 10px;
 }
 
 .user-img {
   flex-shrink: 0; /* prevent image from shrinking */
-  width: 100px; /* set a fixed width */
-  height: 100px; /* set a fixed height */
-  object-fit: cover; /* scale image to fill container */
-  margin-right: 15px; /* add some space to the right of the image */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
   border-radius: 50%;
 }
 
 .user-info {
   flex-grow: 1; /* make user-info fill remaining space */
-  display: flex; /* make user-info a flex container */
-  flex-direction: column; /* stack user-info elements vertically */
-  justify-content: space-between; /* distribute space between elements */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
