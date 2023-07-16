@@ -2,6 +2,15 @@ checkout live:
 
 https://user-list-bay.vercel.app/
 
+#
+This is simple React app that fetches data from API endpoint.
+
+### `npm i`
+or
+### `npm install`
+In the project directory, you can run:
+
+### `npm start`
 
 # Getting Started with Create React App
 
